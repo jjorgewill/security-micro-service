@@ -13,4 +13,4 @@ CACHE
 .pydevproject
 /atlassian-ide-plugin.xml
 /.project
-*.retry 
+*.retry
