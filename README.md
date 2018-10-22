@@ -19,6 +19,6 @@ djangorestframewor
 
 Crear el entorno virtual
 
-Ejecutar las dependencias pip install -r conf/base/requeriment.txt
+Ejecutar las dependencias pip install -r conf/base/requeriments.txt
 
 Ejecutar las migraciones
