@@ -18,5 +18,7 @@ djangorestframewor
 # Pasos de uso
 
 Crear el entorno virtual
+
 Ejecutar las dependencias pip install -r conf/base/requeriment.txt
+
 Ejecutar las migraciones
