@@ -15,7 +15,8 @@ django-rest-auth
 django-rest-framework 
 djangorestframewor 
 
-#Pasos de uso
+# Pasos de uso
+
 Crear el entorno virtual
 Ejecutar las dependencias pip install -r conf/base/requeriment.txt
 Ejecutar las migraciones
