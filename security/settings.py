@@ -142,5 +142,30 @@ REST_FRAMEWORK = {
   #      'rest_framework.permissions.IsAuthenticated',
   #  ),
 }
+ACCOUNT_LOGOUT_ON_GET = True
+
 
 CORS_ORIGIN_ALLOW_ALL = True
+OLD_PASSWORD_FIELD_ENABLED = True
+LOGOUT_ON_PASSWORD_CHANGE = False
+
+REST_SESSION_LOGIN = True
+#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_AUTHENTICATION_METHOD = 'email'
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
+    )
+}
+
+DEFAULT_FROM_EMAIL = 'xxxx@xxxx.com'
+EMAIL_HOST = 'smtp.mail.xxxx.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'xxxxx@xxxx.com'
+EMAIL_HOST_PASSWORD = 'xxxxx'
+EMAIL_USE_TLS = True

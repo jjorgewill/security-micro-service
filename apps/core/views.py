@@ -7,6 +7,9 @@ from rest_framework.authtoken.models import Token as AuthToken
 
 
 class UserView(APIView):
+    """
+        This class return information about user,you can also use rest-auth/user/
+    """
 
     def get(self, request):
         queryset = request.user
@@ -15,6 +18,9 @@ class UserView(APIView):
 
 
 class ObtainAuthToken(APIView):
+    """
+        This class return token
+    """
     throttle_classes = ()
     permission_classes = ()
     parser_classes = (
