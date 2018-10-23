@@ -2,6 +2,7 @@
 
 Un microservicio para gestionar la autenticidad del usuario que accede a tus recursos mediante token
 
+
 1- El servicio se encarga unicamente de autenticar y devolver un token con el token 
 
 2- Con el token devolver la informacion del usuario
@@ -14,6 +15,9 @@ django-oidc-provider
 django-rest-auth 
 django-rest-framework 
 djangorestframewor 
+
+# Requisitos 
+1 Python 3.5
 
 # Pasos de uso
 
