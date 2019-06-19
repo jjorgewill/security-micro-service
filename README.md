@@ -26,3 +26,8 @@ Crear el entorno virtual
 Ejecutar las dependencias pip install -r conf/base/requeriments.txt
 
 Ejecutar las migraciones
+
+#Mas informacion sobre autenticacion con terceros
+https://codeday.me/es/qa/20190116/90049.html
+
+
